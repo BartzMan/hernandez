@@ -1,0 +1,16 @@
+node_modules
+dist
+.output
+.vinxi
+.nitro
+.vercel
+.node_modules.lock
+*.log
+.DS_Store
+screenshots
+artifacts
+.grok
+attachments
+AGENTS.md
+AGENTS.project.md
+public/__grok

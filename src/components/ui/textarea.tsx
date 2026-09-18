@@ -1,0 +1,17 @@
+import { type TextareaHTMLAttributes, forwardRef } from "react";
+import { cn } from "@/lib/utils";
+
+export const Textarea = forwardRef<
+  HTMLTextAreaElement,
+  TextareaHTMLAttributes<HTMLTextAreaElement>
+>(({ className, ...props }, ref) => (
+  <textarea
+    ref={ref}
+    className={cn(
+      "min-h-32 w-full rounded-lg bg-paper px-4 py-3 text-ink shadow-[var(--shadow-border)] placeholder:text-faint outline-none transition-[box-shadow] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage",
+      className,
+    )}
+    {...props}
+  />
+));
+Textarea.displayName = "Textarea";

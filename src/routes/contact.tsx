@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Facebook, MapPin, MessageSquare, Phone } from "lucide-react";
+import { MapPin, MessageSquare, Phone } from "lucide-react";
 import { EstimateForm } from "@/components/forms/estimate-form";
 import { PageHero } from "@/components/layout/page-hero";
 import { buttonVariants } from "@/components/ui/button";
@@ -14,7 +14,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Call or text (480) 572-3141 for same-day irrigation repair in Chandler AZ. 1692 E Golden Ln. Facebook and Google Maps linked.",
+          "Call or text (480) 572-3141 for same-day irrigation repair in Chandler AZ. 1692 E Golden Ln.",
       },
     ],
   }),
@@ -73,15 +73,6 @@ function ContactPage() {
                 className={cn(buttonVariants({ variant: "outline", size: "sm" }))}
               >
                 {t.mapCta}
-              </a>
-              <a
-                href={site.facebook}
-                target="_blank"
-                rel="noreferrer"
-                className={cn(buttonVariants({ variant: "outline", size: "sm" }))}
-              >
-                <Facebook className="size-3.5" />
-                {t.fbCta}
               </a>
             </div>
           </div>

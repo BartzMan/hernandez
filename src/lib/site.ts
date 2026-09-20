@@ -7,7 +7,6 @@ export const site = {
   phone: "(480) 572-3141",
   phoneHref: "tel:+14805723141",
   smsHref: "sms:+14805723141",
-  facebook: "https://www.facebook.com/Hernandezsprinklerrepairs/",
   mapsUrl: "https://maps.google.com/?cid=10724938023164225648",
   address: {
     street: "1692 E Golden Ln",

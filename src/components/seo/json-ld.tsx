@@ -33,7 +33,7 @@ export function LocalBusinessJsonLd() {
       reviewCount: site.reviewCount,
       bestRating: 5,
     },
-    sameAs: [site.facebook, site.mapsUrl],
+    sameAs: [site.mapsUrl],
     priceRange: "$$",
     hasOfferCatalog: {
       "@type": "OfferCatalog",

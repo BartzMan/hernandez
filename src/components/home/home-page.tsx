@@ -15,8 +15,8 @@ export function HomePage() {
     <>
       <section className="relative min-h-[100dvh] overflow-hidden bg-ink text-cream">
         <img
-          src={asset("/images/jobsite-valves.jpg")}
-          alt="Hernandez Irrigation valve manifold and tools on a Chandler jobsite"
+          src={asset("/images/backyard-turf.jpg")}
+          alt="Chandler backyard after irrigation repair — even green lawn and trees"
           className="absolute inset-0 size-full object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-r from-ink/88 via-ink/62 to-ink/25" />

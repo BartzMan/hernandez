@@ -107,30 +107,6 @@ export const serviceCopy: Record<
       "Goteo nuevo para arriates, árboles y conversiones desérticas",
     ],
   },
-  "system-install": {
-    heroEn: "A new system should be built for this heat, not for a catalog.",
-    heroEs: "Un sistema nuevo debe construirse para este calor, no para un catálogo.",
-    bodyEn: [
-      "New home, turf going in, extra zone the builder skipped — we design around East Valley water pressure, HOA rules, and the plants that will actually live here. Laterals in Schedule 40. Valves labeled. Heads matched to the bed, not the cheapest case at the supply house.",
-      "The photographs on this site of finished turf and paver edges are the standard: the irrigation disappears, the yard does not look like a trench, and every zone throws evenly when we hand you the clock.",
-    ],
-    bodyEs: [
-      "Casa nueva, césped que se va a poner, zona extra que el constructor se saltó — diseñamos alrededor de la presión del East Valley, las reglas del HOA, y las plantas que de verdad van a vivir aquí. Laterales en Schedule 40. Válvulas etiquetadas. Cabezales al arriate, no al cajón más barato de la casa de materiales.",
-      "Las fotos de césped terminado y orillas de pavers en este sitio son el estándar: el riego desaparece, el patio no parece una zanja, y cada zona tira parejo cuando te entregamos el reloj.",
-    ],
-    includesEn: [
-      "New residential sprinkler systems",
-      "Extra zones and reroutes",
-      "Turf and paver-edge irrigation",
-      "Controller install and zone mapping",
-    ],
-    includesEs: [
-      "Sistemas de aspersión residenciales nuevos",
-      "Zonas extra y desviaciones",
-      "Riego para césped y orillas de pavers",
-      "Instalación de controlador y mapeo de zonas",
-    ],
-  },
   "seasonal-tuneup": {
     heroEn: "Arizona does not winterize the way the Midwest does. It just gets hotter.",
     heroEs: "Arizona no se inverna como el Medio Oeste. Solo se pone más caliente.",

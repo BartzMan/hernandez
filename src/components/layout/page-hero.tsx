@@ -15,7 +15,7 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="relative overflow-hidden bg-ink pt-24 text-cream sm:pt-28">
+    <section className="relative overflow-hidden bg-ink pt-32 text-cream sm:pt-36">
       <div className="mx-auto grid max-w-6xl items-end gap-10 px-4 pb-12 sm:px-6 lg:grid-cols-12 lg:pb-16">
         <div className="lg:col-span-6 lg:pb-4">
           <p className="text-xs uppercase tracking-[0.2em] text-cream/55">{kicker}</p>

@@ -28,7 +28,7 @@ function AboutPage() {
         kicker={t.aboutKicker}
         title={t.aboutTitle}
         lead={t.aboutP1}
-        image={asset("/images/craft-hands.jpg")}
+        image={asset("/images/trench-pvc.jpg")}
         imageAlt="Hands assembling a Schedule 40 PVC irrigation manifold"
       />
       <section className="mx-auto grid max-w-6xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-20">

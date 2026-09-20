@@ -37,7 +37,7 @@ const dict = {
     problemStat2: "Sch. 40",
     problemStat2Label: "PVC on repairs that used to be flex",
     problemStat3: "Same day",
-    problemStat3Label: "for active leaks across the East Valley",
+    problemStat3Label: "for active leaks in Chandler and nearby",
     servicesKicker: "What we actually do",
     servicesTitle: "Repair, rebuild, and make the yard drink evenly.",
     servicesLead:
@@ -102,10 +102,10 @@ const dict = {
       },
     ],
     areasKicker: "Service area",
-    areasTitle: "Chandler first. The East Valley next.",
+    areasTitle: "Chandler first. Then the neighbors.",
     areasLead:
-      "Based in Chandler. We run daily through Gilbert, Mesa, Tempe, Sun Lakes, Queen Creek, Ahwatukee, and the rest of the East Valley. If your water is in Maricopa County and a zone is dead, call.",
-    areasCta: "See every city we cover",
+      "Based in Chandler. We run Gilbert, Mesa, and Sun Lakes. If you are in one of those cities and a zone is dead, call.",
+    areasCta: "Cities we cover",
     calcKicker: "The quiet bill",
     calcTitle: "What is a leak actually costing you?",
     calcLead:
@@ -150,7 +150,7 @@ const dict = {
       },
       {
         q: "Do you only repair, or do you install new systems?",
-        a: "Both. Most of our week is repair — valves, heads, drip, main lines. We also add zones, convert poly to PVC, and install new systems when a yard is being rebuilt or turf is going in.",
+        a: "Most of the week is repair — valves, heads, drip, main lines. When a line has failed we convert poly to PVC. We add a zone when the yard needs it. We do not sell turf or pavers.",
       },
       {
         q: "What is Schedule 40 and why does it matter?",
@@ -158,7 +158,7 @@ const dict = {
       },
       {
         q: "Do you work in HOAs and 55+ communities?",
-        a: "Yes. Chandler, Sun Lakes, and the East Valley HOAs are a large part of the book. We keep work clean, restore gravel and turf, and can work around access rules.",
+        a: "Yes. Chandler, Sun Lakes, Gilbert, and Mesa HOAs are a large part of the book. We keep work clean, restore gravel and turf after a trench, and can work around access rules.",
       },
       {
         q: "English and Spanish?",
@@ -189,10 +189,10 @@ const dict = {
     aboutStat3Label: "Chandler home base",
     workPageTitle: "The work, not the brochure.",
     workPageLead:
-      "Trench, valves, turf, pavers, drip. These photographs are from Hernandez jobs in the East Valley.",
-    areasPageTitle: "If you can drive it in 30 minutes from Chandler, we can be there.",
+      "Trench, valves, leaks, yards after the repair. These photographs are from Hernandez jobs.",
+    areasPageTitle: "Chandler, Gilbert, Mesa, Sun Lakes.",
     areasPageLead:
-      "Irrigation does not care about city limits. Leaks, dead zones, and bad clocks look the same in Gilbert as they do in Sun Lakes. We run the East Valley.",
+      "Irrigation does not care about city limits between these four. Leaks, dead zones, and bad clocks look the same in Gilbert as they do in Sun Lakes.",
     contactKicker: "Start here",
     contactTitle: "Call, text a photo, or send the form.",
     contactLead:
@@ -234,7 +234,7 @@ const dict = {
     problemStat2: "Sch. 40",
     problemStat2Label: "PVC en reparaciones que antes eran flex",
     problemStat3: "Mismo día",
-    problemStat3Label: "para fugas activas en el East Valley",
+    problemStat3Label: "para fugas activas en Chandler y cerca",
     servicesKicker: "Lo que realmente hacemos",
     servicesTitle: "Reparar, reconstruir, y que el patio beba parejo.",
     servicesLead:
@@ -298,10 +298,10 @@ const dict = {
       },
     ],
     areasKicker: "Área de servicio",
-    areasTitle: "Chandler primero. El East Valley después.",
+    areasTitle: "Chandler primero. Luego los vecinos.",
     areasLead:
-      "Con base en Chandler. Rodamos diario por Gilbert, Mesa, Tempe, Sun Lakes, Queen Creek, Ahwatukee y el resto del East Valley. Si tu agua está en el condado de Maricopa y una zona está muerta, llama.",
-    areasCta: "Ver cada ciudad",
+      "Con base en Chandler. Cubrimos Gilbert, Mesa y Sun Lakes. Si estás en una de esas ciudades y una zona está muerta, llama.",
+    areasCta: "Ciudades que cubrimos",
     calcKicker: "El recibo silencioso",
     calcTitle: "¿Cuánto te está costando esa fuga?",
     calcLead:
@@ -346,7 +346,7 @@ const dict = {
       },
       {
         q: "¿Solo reparan, o también instalan sistemas nuevos?",
-        a: "Ambas. La mayor parte de la semana es reparación — válvulas, cabezales, goteo, líneas principales. También agregamos zonas, convertimos poli a PVC, e instalamos sistemas nuevos cuando se reconstruye un patio o se pone césped.",
+        a: "La mayor parte de la semana es reparación — válvulas, cabezales, goteo, líneas principales. Cuando una línea falló, convertimos poli a PVC. Agregamos una zona si el patio la necesita. No vendemos césped ni pavers.",
       },
       {
         q: "¿Qué es Schedule 40 y por qué importa?",
@@ -354,7 +354,7 @@ const dict = {
       },
       {
         q: "¿Trabajan en HOAs y comunidades 55+?",
-        a: "Sí. Chandler, Sun Lakes y los HOAs del East Valley son gran parte de la agenda. Dejamos el trabajo limpio, reponemos grava y césped, y podemos trabajar con las reglas de acceso.",
+        a: "Sí. Chandler, Sun Lakes, Gilbert y Mesa son gran parte de la agenda. Dejamos el trabajo limpio, reponemos grava y césped después de una zanja, y podemos trabajar con las reglas de acceso.",
       },
       {
         q: "¿Inglés y español?",
@@ -385,10 +385,10 @@ const dict = {
     aboutStat3Label: "Base en Chandler",
     workPageTitle: "El trabajo, no el folleto.",
     workPageLead:
-      "Zanja, válvulas, césped, pavers, goteo. Estas fotos son de trabajos Hernandez en el East Valley.",
-    areasPageTitle: "Si se llega en 30 minutos desde Chandler, podemos estar ahí.",
+      "Zanja, válvulas, fugas, patios después de la reparación. Estas fotos son de trabajos Hernandez.",
+    areasPageTitle: "Chandler, Gilbert, Mesa, Sun Lakes.",
     areasPageLead:
-      "El riego no respeta límites de ciudad. Fugas, zonas muertas y relojes malos se ven igual en Gilbert que en Sun Lakes. Corremos el East Valley.",
+      "El riego no respeta el límite entre estas cuatro. Fugas, zonas muertas y relojes malos se ven igual en Gilbert que en Sun Lakes.",
     contactKicker: "Empieza aquí",
     contactTitle: "Llama, manda una foto, o llena el formulario.",
     contactLead:

@@ -29,13 +29,7 @@ export const serviceAreas = [
   "Chandler",
   "Gilbert",
   "Mesa",
-  "Tempe",
   "Sun Lakes",
-  "Queen Creek",
-  "Ahwatukee",
-  "Higley",
-  "San Tan Valley",
-  "Phoenix",
 ] as const;
 
 export const nav = [
@@ -51,7 +45,6 @@ export type ServiceSlug =
   | "leak-detection"
   | "valve-repair"
   | "drip-irrigation"
-  | "system-install"
   | "seasonal-tuneup";
 
 export const services: Array<{
@@ -68,14 +61,14 @@ export const services: Array<{
   {
     slug: "sprinkler-repair",
     href: "/services/sprinkler-repair",
-    image: asset("/images/hero-mist.jpg"),
+    image: asset("/images/backyard-turf.jpg"),
     title: "Sprinkler repair",
     titleEs: "Reparación de aspersores",
     tease: "Broken heads, dry rings, overspray onto the driveway — we rebuild coverage the way the yard was designed.",
     teaseEs: "Cabezales rotos, anillos secos, riego en la entrada: reconstruimos la cobertura como el patio fue diseñado.",
     seoTitle: "Sprinkler Repair Chandler AZ | Hernandez Irrigation",
     seoDesc:
-      "Same-day sprinkler head, nozzle, and zone repair in Chandler, Gilbert, Mesa, and the East Valley. Coverage rebuilt, not patched.",
+      "Same-day sprinkler head, nozzle, and zone repair in Chandler, Gilbert, Mesa, and Sun Lakes. Coverage rebuilt, not patched.",
   },
   {
     slug: "leak-detection",
@@ -92,43 +85,31 @@ export const services: Array<{
   {
     slug: "valve-repair",
     href: "/services/valve-repair",
-    image: asset("/images/valve-box.jpg"),
+    image: asset("/images/jobsite-valves.jpg"),
     title: "Valves & manifolds",
     titleEs: "Válvulas y manifolds",
     tease: "A weeping valve wastes more water than a broken head. We rebuild boxes so they stay dry, labeled, and serviceable.",
     teaseEs: "Una válvula que gotea gasta más agua que un cabezal roto. Reconstruimos cajas secas, etiquetadas y servibles.",
     seoTitle: "Irrigation Valve Repair Chandler AZ | Manifold Rebuilds",
     seoDesc:
-      "Irrigation valve replacement, solenoid repair, and manifold rebuilds in Chandler and the East Valley.",
+      "Irrigation valve replacement, solenoid repair, and manifold rebuilds in Chandler, Gilbert, Mesa, and Sun Lakes.",
   },
   {
     slug: "drip-irrigation",
     href: "/services/drip-irrigation",
-    image: asset("/images/drip-desert.jpg"),
+    image: asset("/images/paver-walk.jpg"),
     title: "Drip systems",
     titleEs: "Sistemas de goteo",
     tease: "Desert plants die from two things: too little water, or a drip line that has been leaking for months. We fix both.",
     teaseEs: "Las plantas del desierto mueren por falta de agua o por una línea de goteo que lleva meses goteando. Arreglamos ambas.",
     seoTitle: "Drip Irrigation Repair Chandler AZ | Desert Landscape",
     seoDesc:
-      "Drip irrigation repair and install for desert landscapes in Chandler, Gilbert, and Queen Creek. Emitters, poly, filters, pressure.",
-  },
-  {
-    slug: "system-install",
-    href: "/services/system-install",
-    image: asset("/images/backyard-turf.jpg"),
-    title: "New systems & turf",
-    titleEs: "Sistemas nuevos y césped",
-    tease: "New install, extra zone, turf conversion — designed for East Valley heat, HOA rules, and the water you actually have.",
-    teaseEs: "Instalación nueva, zona extra, conversión a césped: diseñado para el calor del East Valley, el HOA y el agua que tienes.",
-    seoTitle: "Sprinkler System Installation Chandler AZ",
-    seoDesc:
-      "New irrigation installs, extra zones, and turf watering systems in Chandler AZ. Built in Schedule 40, tested zone by zone.",
+      "Drip irrigation repair for desert plantings in Chandler, Gilbert, Mesa, and Sun Lakes. Emitters, poly, filters, pressure.",
   },
   {
     slug: "seasonal-tuneup",
     href: "/services/seasonal-tuneup",
-    image: asset("/images/dusk-mist.jpg"),
+    image: asset("/images/trench-pvc.jpg"),
     title: "Seasonal tune-ups",
     titleEs: "Ajustes de temporada",
     tease: "Arizona does not have a true off-season. A 45-minute walkthrough in March saves a dead lawn in June.",

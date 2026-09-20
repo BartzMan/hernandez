@@ -15,14 +15,14 @@ export function HomePage() {
     <>
       <section className="relative min-h-[100dvh] overflow-hidden bg-ink text-cream">
         <img
-          src={asset("/images/hero-mist.jpg")}
-          alt="Golden hour sprinklers across a Chandler Arizona backyard"
+          src={asset("/images/jobsite-valves.jpg")}
+          alt="Hernandez Irrigation valve manifold and tools on a Chandler jobsite"
           className="absolute inset-0 size-full object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-r from-ink/88 via-ink/62 to-ink/25" />
         <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-transparent to-ink/35" />
 
-        <div className="relative mx-auto flex min-h-[100dvh] max-w-6xl flex-col justify-end px-4 pb-28 pt-28 sm:px-6 sm:pb-20">
+        <div className="relative mx-auto flex min-h-[100dvh] max-w-6xl flex-col justify-end px-4 pb-28 pt-36 sm:px-6 sm:pb-20 sm:pt-40">
           <p className="text-xs uppercase tracking-[0.22em] text-cream/70">{t.heroKicker}</p>
           <h1 className="mt-4 max-w-3xl font-display text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-7xl">
             {t.heroTitle}
@@ -186,10 +186,10 @@ export function HomePage() {
         </div>
         <div className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4">
           {[
-            asset("/images/backyard-turf.jpg"),
-            asset("/images/paver-walk.jpg"),
             asset("/images/jobsite-valves.jpg"),
+            asset("/images/trench-pvc.jpg"),
             asset("/images/leak-repair.jpg"),
+            asset("/images/backyard-turf.jpg"),
           ].map((src) => (
             <div key={src} className="overflow-hidden rounded-lg">
               <img src={src} alt="" className="aspect-4/5 w-full object-cover" />
@@ -233,8 +233,8 @@ export function HomePage() {
 
       <section className="relative overflow-hidden">
         <img
-          src={asset("/images/chandler-street.jpg")}
-          alt="Chandler Arizona neighborhood at golden hour"
+          src={asset("/images/paver-walk.jpg")}
+          alt="Chandler Arizona yard after irrigation work"
           className="absolute inset-0 size-full object-cover"
         />
         <div className="absolute inset-0 bg-ink/72" />

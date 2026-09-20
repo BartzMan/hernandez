@@ -6,6 +6,7 @@ import { nav, site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import { Logo } from "./logo";
+import { PreviewBanner } from "./preview-banner";
 
 export function Header() {
   const { t, lang, setLang } = useLang();
@@ -37,12 +38,18 @@ export function Header() {
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-200",
-        inverted
-          ? "bg-transparent"
-          : "bg-paper/95 backdrop-blur-md shadow-[var(--shadow-border)]",
+        "fixed inset-x-0 top-0 z-50",
       )}
     >
+      <PreviewBanner />
+      <div
+        className={cn(
+          "transition-[background-color,box-shadow,backdrop-filter] duration-200",
+          inverted
+            ? "bg-transparent"
+            : "bg-paper/95 backdrop-blur-md shadow-[var(--shadow-border)]",
+        )}
+      >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:h-[4.25rem] sm:px-6">
         <Logo inverted={inverted} />
 
@@ -163,6 +170,7 @@ export function Header() {
           </nav>
         </div>
       ) : null}
+      </div>
     </header>
   );
 }

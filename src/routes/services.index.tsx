@@ -13,7 +13,7 @@ export const Route = createFileRoute("/services/")({
       {
         name: "description",
         content:
-          "Sprinkler repair, leak detection, valves, drip, new installs, and seasonal tune-ups in Chandler, Gilbert, Mesa, and the East Valley.",
+          "Sprinkler repair, leak detection, valves, drip, and seasonal tune-ups in Chandler, Gilbert, Mesa, and Sun Lakes.",
       },
     ],
   }),
@@ -33,8 +33,8 @@ function ServicesPage() {
         }
         lead={
           lang === "es"
-            ? "Aspersores, fugas, válvulas, goteo, sistemas nuevos, ajustes de temporada. Un equipo, un estándar: Schedule 40, cajas etiquetadas, patio limpio."
-            : "Sprinklers, leaks, valves, drip, new systems, seasonal tune-ups. One crew, one standard: Schedule 40, labeled boxes, a clean yard."
+            ? "Aspersores, fugas, válvulas, goteo, ajustes de temporada. Un equipo, un estándar: Schedule 40, cajas etiquetadas, patio limpio."
+            : "Sprinklers, leaks, valves, drip, seasonal tune-ups. One crew, one standard: Schedule 40, labeled boxes, a clean yard."
         }
         image={asset("/images/jobsite-valves.jpg")}
         imageAlt="Irrigation valve manifold and tools on a Chandler jobsite"

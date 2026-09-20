@@ -18,7 +18,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Same-day sprinkler, drip, valve, and main-line repair in Chandler, Gilbert, Mesa, and the East Valley. 4.9 stars from 72 Google reviews. Call (480) 572-3141.",
+          "Same-day sprinkler, drip, valve, and main-line repair in Chandler, Gilbert, Mesa, and Sun Lakes. 4.9 stars from 72 Google reviews. Call (480) 572-3141.",
       },
       { name: "theme-color", content: "#1E5746" },
       { name: "robots", content: "noindex, nofollow" },
@@ -27,7 +27,7 @@ export const Route = createRootRoute({
       {
         name: "keywords",
         content:
-          "irrigation repair Chandler AZ, sprinkler repair Chandler, leak detection Gilbert, valve replacement Mesa, drip irrigation Queen Creek, Hernandez Irrigation",
+          "irrigation repair Chandler AZ, sprinkler repair Chandler, leak detection Gilbert, valve replacement Mesa, drip irrigation Sun Lakes, Hernandez Irrigation",
       },
     ],
     links: [

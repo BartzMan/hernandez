@@ -36,8 +36,8 @@ function ServicesPage() {
             ? "Aspersores, fugas, válvulas, goteo, ajustes de temporada. Un equipo, un estándar: Schedule 40, cajas etiquetadas, patio limpio."
             : "Sprinklers, leaks, valves, drip, seasonal tune-ups. One crew, one standard: Schedule 40, labeled boxes, a clean yard."
         }
-        image={asset("/images/jobsite-valves.jpg")}
-        imageAlt="Irrigation valve manifold and tools on a Chandler jobsite"
+        image={asset("/images/leak-repair.jpg")}
+        imageAlt="Irrigation leak excavated in Chandler gravel — the job, not a brochure"
       />
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <div className="grid gap-8">

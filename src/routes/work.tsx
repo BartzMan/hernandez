@@ -26,8 +26,8 @@ function WorkPage() {
         kicker={t.workKicker}
         title={t.workPageTitle}
         lead={t.workPageLead}
-        image={asset("/images/jobsite-valves.jpg")}
-        imageAlt="Valve manifold and irrigation tools on a Hernandez jobsite"
+        image={asset("/images/leak-repair.jpg")}
+        imageAlt="Leak excavated on a Hernandez Irrigation job in Chandler"
       />
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">

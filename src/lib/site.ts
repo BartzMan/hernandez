@@ -60,7 +60,7 @@ export const services: Array<{
   {
     slug: "sprinkler-repair",
     href: "/services/sprinkler-repair",
-    image: asset("/images/backyard-turf.jpg"),
+    image: asset("/images/sprinkler-head.jpg"),
     title: "Sprinkler repair",
     titleEs: "Reparación de aspersores",
     tease: "Broken heads, dry rings, overspray onto the driveway — we rebuild coverage the way the yard was designed.",
@@ -84,7 +84,7 @@ export const services: Array<{
   {
     slug: "valve-repair",
     href: "/services/valve-repair",
-    image: asset("/images/jobsite-valves.jpg"),
+    image: asset("/images/valve-box-open.jpg"),
     title: "Valves & manifolds",
     titleEs: "Válvulas y manifolds",
     tease: "A weeping valve wastes more water than a broken head. We rebuild boxes so they stay dry, labeled, and serviceable.",
@@ -96,7 +96,7 @@ export const services: Array<{
   {
     slug: "drip-irrigation",
     href: "/services/drip-irrigation",
-    image: asset("/images/paver-walk.jpg"),
+    image: asset("/images/drip-line.jpg"),
     title: "Drip systems",
     titleEs: "Sistemas de goteo",
     tease: "Desert plants die from two things: too little water, or a drip line that has been leaking for months. We fix both.",
@@ -108,7 +108,7 @@ export const services: Array<{
   {
     slug: "seasonal-tuneup",
     href: "/services/seasonal-tuneup",
-    image: asset("/images/trench-pvc.jpg"),
+    image: asset("/images/irrigation-clock.jpg"),
     title: "Seasonal tune-ups",
     titleEs: "Ajustes de temporada",
     tease: "Arizona does not have a true off-season. A 45-minute walkthrough in March saves a dead lawn in June.",

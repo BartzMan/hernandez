@@ -8,7 +8,7 @@ export function LocalBusinessJsonLd() {
     name: site.name,
     legalName: site.legalName,
     telephone: "+14805723141",
-    image: asset("/images/backyard-turf.jpg"),
+    image: asset("/images/leak-repair.jpg"),
     url: "/",
     address: {
       "@type": "PostalAddress",
